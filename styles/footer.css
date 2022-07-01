@@ -3,20 +3,23 @@ footer {
     background-color: #251928;
     padding: 109px 80px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social-media {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
     width: 391px;
     height: 220px;
     justify-content: space-between;
 }
 
-#nft {
-    max-width: 194px;
-    max-height: 194px;
+.nft-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 194px;
+    height: 194px;
 }
 
 .social-media span {
@@ -71,4 +74,18 @@ footer {
     width: 28px;
     height: 27px;
     margin-right: 33px;
+}
+
+@media (min-width: 0px) and (max-width:1160px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+    .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center space-between
+    }
 }
