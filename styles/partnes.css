@@ -1,0 +1,30 @@
+ .partners {
+     display: flex;
+     padding-top: 201px;
+     padding-bottom: 113px;
+     justify-content: space-around;
+     align-items: center;
+     padding-left: 187px;
+     padding-right: 177px;
+     flex-wrap: wrap;
+ }
+ 
+ .partners .coinbase img {
+     width: 149px;
+     height: 33px;
+ }
+ 
+ .partners .blockchain img {
+     width: 309px;
+     height: 24px;
+ }
+ 
+ .partners .binance img {
+     width: 204px;
+     height: 41px;
+ }
+ 
+ .partners .bitmex img {
+     width: 166px;
+     height: 30px;
+ }
