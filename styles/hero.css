@@ -7,23 +7,24 @@ main {
     background-image: url(../img/blurrEffect.png);
 }
 
-main .hero-text-introduce {
-    padding-top: 274px;
+.hero-text-introduce {
+    padding-top: 180px;
     padding-left: 80px;
 }
 
-main .text-introduce span {
+.text-hero .hero-text-introduce h1 {
     font-family: "Oxanium";
     font-style: normal;
     font-weight: 700;
     font-size: 85px;
+    width: 710px;
+    height: 390px;
     color: #f5fbf2;
 }
 
-main .text-introduce .text-introduce-duo-color {
+.text-hero .hero-text-introduce span {
     width: 710px;
     height: 390px;
-    margin-top: 274px;
     font-family: "Oxanium";
     font-style: normal;
     font-weight: 700;
@@ -31,41 +32,40 @@ main .text-introduce .text-introduce-duo-color {
     color: #ffce4e;
 }
 
-.background-logo {
+
+/* .background-logo {
     position: absolute;
     width: 900px;
     height: 1150px;
     left: 1080px;
     background: rgba(79, 70, 78, 0.45);
+} */
+
+main .teste {
+    width: 579px;
+    height: 718px;
+    padding-right: 105px;
 }
 
-main .hero .teste {
-    position: relative;
-    max-width: 556px;
-    max-height: 718px;
-    bottom: -102px;
-}
-
-main .hero .teste img {
+main .teste img {
     height: 100%;
     width: 100%;
 }
 
-main .hero .hero-buttons {
+main .hero-buttons {
     display: flex;
-    justify-content: center;
+    padding-left: 80px;
     gap: 48px;
-    padding-top: 77px;
-    padding-bottom: 121px;
+    padding-bottom: 50px;
 }
 
-main .hero .hero-buttons .button-explore {
+main .hero-buttons .button-explore {
     background-color: #ffce4e;
     width: 257px;
     height: 84px;
 }
 
-main .hero .hero-buttons .button-explore a {
+main .hero-buttons .button-explore a {
     font-family: "Work Sans";
     font-weight: 600;
     font-size: 28px;
@@ -73,7 +73,7 @@ main .hero .hero-buttons .button-explore a {
     text-decoration: none;
 }
 
-main .hero .hero-buttons .button-create {
+main .hero-buttons .button-create {
     font-family: "Work Sans";
     font-weight: 600;
     font-size: 28px;
@@ -84,7 +84,7 @@ main .hero .hero-buttons .button-create {
     height: 84px;
 }
 
-main .hero .hero-buttons .button-create a {
+main .hero-buttons .button-create a {
     font-family: "Work Sans";
     font-weight: 600;
     color: white;
@@ -92,38 +92,46 @@ main .hero .hero-buttons .button-create a {
     text-decoration: none;
 }
 
-main .hero .hero-informations {
+main .hero-informations {
     display: flex;
-    justify-content: space-around;
+    padding-left: 80px;
+    gap: 70px;
+    padding-bottom: 120px
 }
 
-main .hero .hero-informations .hero-informations-number {
+main .hero-informations .hero-informations-content {
+    display: flex;
+    flex-direction: column;
+}
+
+main .hero-informations .hero-informations-number {
     font-family: "Oxanium";
     font-size: 62px;
     font-weight: 700;
     color: #f5fbf2;
 }
 
-main .hero .hero-informations .hero-informations-text {
+main .hero-informations .hero-informations-text {
     font-family: "Work Sans";
     font-weight: 400;
     font-size: 24px;
     color: #9b9e9a;
 }
 
-main .hero .teste .nft-artist-container {
+main .teste .nft-artist-container {
     height: 142px;
     position: relative;
     top: -140px;
     display: flex;
-    padding-left: 60px;
+    justify-content: space-around;
     background-color: #fff;
     margin-bottom: 103px;
 }
 
-main .teste .nft-prices-informations {
+.teste .nft-prices-informations {
     display: flex;
     position: relative;
+    justify-content: space-between;
     margin: 24px 23px 0px 23px;
     padding: 18px 54px 16px 39px;
     top: 120px;
@@ -131,61 +139,58 @@ main .teste .nft-prices-informations {
     opacity: 0.95;
 }
 
-main .teste .nft-prices-informations .nft-prices-informations-current-bid {
+.teste .nft-prices-informations .nft-prices-informations-current-bid {
     font-family: "Oxanium";
     font-size: 18px;
     color: #e4dee7;
 }
 
-main .teste .nft-prices-informations .nft-prices-informations-current-price {
+.teste .nft-prices-informations .nft-prices-informations-current-price {
+    display: flex;
+    flex-direction: column;
     font-family: "Oxanium";
     font-size: 32px;
     color: #fff;
 }
 
-main .hero .teste .nft-artist-container .nft-artist-container-profission {
+main .teste .nft-artist-container .nft-artist-container-profission {
     padding-top: 33px;
     font-family: "Oxanium";
     font-size: 28px;
 }
 
-main .hero .teste .nft-artist-container .nft-artist-container-social-media {
+main .teste .nft-artist-container .nft-artist-container-social-media {
     font-family: "Work Sans";
     font-size: 24px;
     font-weight: 400;
     color: #594d5e;
 }
 
-main .hero .teste .nft-prices-informations .nft-promotion-price-time {
-    position: relative;
-    left: 173px;
-}
-
-main .hero .teste .nft-prices-informations .nft-promotion-price-time .nft-promotion-text {
+main .teste .nft-prices-informations .nft-promotion-price-time .nft-promotion-text {
     font-family: "Oxanium";
     font-size: 18px;
     font-weight: 500;
     color: #e4dee7;
 }
 
-main .hero .teste .nft-prices-informations .nft-promotion-price-time .nft-promotion-time {
+main .teste .nft-prices-informations .nft-promotion-price-time .nft-promotion-time {
+    display: flex;
+    flex-direction: column;
     font-family: "Oxanium";
     font-size: 32px;
     font-weight: 700;
     color: #fff;
 }
 
-main .hero .teste .nft-artist-container .nft-artist-container-button button {
+main .teste .nft-artist-container .nft-artist-container-button button {
     width: 205px;
     height: 72px;
-    position: relative;
-    top: 35px;
-    left: 170px;
     background-color: #ffce4e;
     border: none;
+    margin-top: 30px;
 }
 
-main .hero .teste .nft-artist-container .nft-artist-container-button a {
+main .teste .nft-artist-container .nft-artist-container-button a {
     text-decoration: none;
     font-family: "Work Sans";
     font-weight: 700;
